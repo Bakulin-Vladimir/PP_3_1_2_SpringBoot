@@ -6,6 +6,7 @@ import ru.bakulin.pp_3_1_2_springboot.model.User;
 import java.util.List;
 
 public interface UserDao {
+
     void saveUser(User user);
 
     User readUserID(long id);

@@ -14,6 +14,7 @@ import ru.bakulin.pp_3_1_2_springboot.service.UserService;
 @Controller
 @RequestMapping("/users")
 public class UserController {
+
     private UserService userService;
 
     @Autowired
